@@ -1,0 +1,36 @@
+.logo{
+ display: block; 
+ color:indigo;
+ width: 120px;  height: 80px;
+ border: solid blue 2px;
+ box-shadow:blue 10px 0px 5px;
+ border-radius: 90%;
+ margin-left: 75rem;  z-index: 1;
+
+
+ background:linear-gradient(purple
+ ,white,purple);
+ 
+ text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+  box-shadow: darkmagenta 5px; 
+ 
+ animation-name: logo;
+ animation-duration: 5s;
+ animation-iteration-count: infinite;
+}
+@keyframes logo{
+
+ 0%{ opacity: 0.5; transform: translateX(8px);
+ background: linear-gradient(grey,white,grey);
+ }
+ 25%{ opacity: 1;  transform: translateX(-8px);
+  transform: rotateZ(-10deg)
+  }
+ 50%{ opacity: 1; transform: rotateZ(10deg);
+  background: white,linear-gradient(grey,grey)}
+ 75%{ opacity: 1; transform:translateX(-8px) }
+ 100%{ opacity: 0.5; transform: translateX(8px);
+ background: linear-gradient(grey,white,grey) }
+}

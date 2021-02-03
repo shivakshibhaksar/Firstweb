@@ -1,0 +1,46 @@
+body{
+ background: tomato;
+}
+.Head{ background:yellow; display: block; width: vw; height:30px; margin-top: 10px; padding: 10px;
+}
+.Head > a{
+ margin-left: 100px;
+ text-decoration: none; color:black;
+ font-size: 1.5rem; font-weight:1000;
+ margin-top:60px;
+ transition: all 0.1s linear; background: yellow;
+ 
+}
+a:hover{ 
+ 
+ background:orangered;
+}
+.imageone{
+ background-image: url(/imageone.jpg);
+  width: 100vw; height: 100vh;
+  background-size: cover;
+  background-position:center;
+  background-attachment: fixed;
+  opacity: 0.9;
+  background-repeat: repeat-y;
+  
+}
+.imageone >p{ margin-top: 10px;
+ opacity: 1; font-size: 2rem; 
+ background: linear-gradient(60deg,lightpink,lightgreen,lightyellow,lightblue);
+ 
+}
+.imageone >a{
+ display: block; width:20vw; height: 10vh;
+ margin-left:40vw;  margin-top: 50vh;
+  background:Red;
+ text-align: center; display: flex; align-items: center;
+ justify-content: center;
+ font-size: 2rem; text-decoration: none; color: black;
+ font-weight: bold; 
+ text-shadow: white 2px 0px 0px;
+ transition: all 0.5s linear;
+}
+.imageone>a:hover{
+ background:yellow;
+}
