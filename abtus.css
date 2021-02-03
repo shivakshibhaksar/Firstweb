@@ -1,0 +1,20 @@
+body{background:tomato}
+
+img{
+ width: 20vw; height 10vh; background-size: cover;
+ margin-left: 0; border:solid black 10px;
+}
+.abtus{
+ background: rgb(110, 168, 168);
+}
+.abtus>h1{ background:black; color: yellow;
+ text-shadow: whitesmoke 3px 0px 0px;
+ font-size: 3rem;
+ opacity: 1; text-align: center;
+
+
+}
+.abtus>p{
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  line-height: 30px;
+} 
